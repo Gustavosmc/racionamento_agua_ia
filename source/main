@@ -2,9 +2,4 @@
 
 
 if __name__ == '__main__':
-    import collections
-    Person = collections.namedtuple('Person', 'name age gender')
-
-    lorena = Person("Lorena", 12, "F")
-
-    print(lorena.age)
+  pass
