@@ -1,0 +1,11 @@
+Bairros:Centro, Amoreiras 1, Jockei, Mirante, Vila Cruvinel
+Bairros:Alto da Colina, Amoreiras 2, Bela Vista 2, Esplanada, Nossa Senhora Aparecida
+Bairros:Alto do Açude, Vista Alegre, JK, Lene Ville
+Bairros:Novo Horizonte, Nossa Senhora de Fatima
+Bairros:Bela Vista, Santo Eduardo, Santa Lucia
+Bairros:Vila Mariana, Jardim Serrano, Primavera, Vila Alvorada, Jardim Europa
+Bairros:Santana, Arraila Dangola, Chapadinha 1 e 2, Bandeirantes
+Bairros:Sao Calixto, Lavrado, Cidade Jardim, Bom Pastor, Sao Joao Evangelista
+Bairros:Santana, Arraial Dangola, Alto do Corrego, Jardim Primavera
+Bairros:Prado, Cidade Nova, Parque do Principe
+Bairros:Paracatuzinho
