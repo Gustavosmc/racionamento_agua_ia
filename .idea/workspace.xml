@@ -6,12 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfaa87ee-1bb5-4d3e-b571-aa3aca19065f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/test/test_readtext.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/ReadTXT/readtext.py" afterPath="$PROJECT_DIR$/source/ReadTXT/readtext.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/main" afterPath="$PROJECT_DIR$/source/main" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/racionamento_ag.py" afterPath="$PROJECT_DIR$/source/racionamento_ag.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/racionamento_models.py" afterPath="$PROJECT_DIR$/source/racionamento_models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/test/fabrica_obj_teste.py" afterPath="$PROJECT_DIR$/source/test/fabrica_obj_teste.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/test/test_racionamento_ag.py" afterPath="$PROJECT_DIR$/source/test/test_racionamento_ag.py" />
     </list>
     <ignored path="racionamento_agua.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,18 +35,32 @@
       <file leaf-file-name="main" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/main">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
+            <state relative-caret-position="421">
+              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="racionamento_models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="readtext.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/ReadTXT/readtext.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-47">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="racionamento_models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/racionamento_models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -56,8 +71,8 @@
       <file leaf-file-name="racionamento_ag.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/racionamento_ag.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="43" column="10" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="181">
+              <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -65,11 +80,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fabrica_obj_teste.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="setores.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/ReadTXT/setores.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fabrica_obj_teste.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/test/fabrica_obj_teste.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="108">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -80,20 +105,8 @@
       <file leaf-file-name="test_racionamento_ag.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/test/test_racionamento_ag.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_racionamento_models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/test/test_racionamento_models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="143">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -119,11 +132,13 @@
         <option value="$PROJECT_DIR$/source/racionamento_models_test.py" />
         <option value="$PROJECT_DIR$/source/test/racionamento_ag.py" />
         <option value="$PROJECT_DIR$/source/test/test_racionamento_models.py" />
-        <option value="$PROJECT_DIR$/source/main" />
         <option value="$PROJECT_DIR$/source/test/test_racionamento_ag.py" />
+        <option value="$PROJECT_DIR$/source/test/test_readtext.py" />
+        <option value="$PROJECT_DIR$/source/ReadTXT/readtext.py" />
+        <option value="$PROJECT_DIR$/source/test/fabrica_obj_teste.py" />
+        <option value="$PROJECT_DIR$/source/main" />
         <option value="$PROJECT_DIR$/source/racionamento_ag.py" />
         <option value="$PROJECT_DIR$/source/racionamento_models.py" />
-        <option value="$PROJECT_DIR$/source/test/fabrica_obj_teste.py" />
       </list>
     </option>
   </component>
@@ -157,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,14 +219,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="ReadTXT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +236,7 @@
       <recent name="$PROJECT_DIR$/source" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_racionamento_ag">
+  <component name="RunManager" selected="Python.main">
     <configuration default="false" name="Unittests in test_racionamento_ag" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,62 +252,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="racionamento_ag" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="racionamento_agua" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/racionamento_ag.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="racionamento_models" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="racionamento_agua" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/racionamento_models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestRacionamentoGA.testGerarEstados" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="racionamento_agua" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/test/test_racionamento_ag.py" />
-      <option name="CLASS_NAME" value="TestRacionamentoGA" />
-      <option name="METHOD_NAME" value="testGerarEstados" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -320,6 +279,62 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="readtext" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/ReadTXT" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="racionamento_agua" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/ReadTXT/readtext.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_readtext" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="racionamento_agua" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/test/test_readtext.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="racionamento_agua" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/main" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -458,18 +473,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_racionamento_ag" />
-      <item index="1" class="java.lang.String" itemvalue="Python.racionamento_ag" />
-      <item index="2" class="java.lang.String" itemvalue="Python.racionamento_models" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestRacionamentoGA.testGerarEstados" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_racionamento_models" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_racionamento_models" />
+      <item index="2" class="java.lang.String" itemvalue="Python.readtext" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_readtext" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_racionamento_ag" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_racionamento_models" />
-        <item index="2" class="java.lang.String" itemvalue="Python.racionamento_models" />
-        <item index="3" class="java.lang.String" itemvalue="Python.racionamento_ag" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestRacionamentoGA.testGerarEstados" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_readtext" />
+        <item index="2" class="java.lang.String" itemvalue="Python.readtext" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_racionamento_ag" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_racionamento_models" />
       </list>
     </recent_temporary>
   </component>
@@ -487,40 +502,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_racionamento_ag - 2017.11.26 at 20h 46m 02s.xml">
-      <configuration name="Unittests in test_racionamento_ag" configurationId="tests" />
+    <history-entry file="Unittests_in_test_readtext - 2017.12.02 at 22h 00m 40s.xml">
+      <configuration name="Unittests in test_readtext" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_racionamento_ag - 2017.11.26 at 20h 47m 58s.xml">
-      <configuration name="Unittests in test_racionamento_ag" configurationId="tests" />
+    <history-entry file="Unittests_in_test_readtext - 2017.12.02 at 22h 01m 17s.xml">
+      <configuration name="Unittests in test_readtext" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_racionamento_ag - 2017.11.26 at 20h 54m 57s.xml">
-      <configuration name="Unittests in test_racionamento_ag" configurationId="tests" />
+    <history-entry file="Unittests_in_test_readtext - 2017.12.02 at 22h 01m 53s.xml">
+      <configuration name="Unittests in test_readtext" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_racionamento_ag - 2017.11.26 at 20h 56m 28s.xml">
-      <configuration name="Unittests in test_racionamento_ag" configurationId="tests" />
+    <history-entry file="Unittests_in_test_readtext - 2017.12.02 at 22h 02m 41s.xml">
+      <configuration name="Unittests in test_readtext" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_racionamento_ag - 2017.11.28 at 21h 41m 59s.xml">
-      <configuration name="Unittests in test_racionamento_ag" configurationId="tests" />
+    <history-entry file="Unittests_in_test_readtext - 2017.12.02 at 22h 03m 11s.xml">
+      <configuration name="Unittests in test_readtext" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_racionamento_ag - 2017.11.28 at 21h 45m 15s.xml">
-      <configuration name="Unittests in test_racionamento_ag" configurationId="tests" />
+    <history-entry file="Unittests_in_test_readtext - 2017.12.02 at 22h 03m 21s.xml">
+      <configuration name="Unittests in test_readtext" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_racionamento_ag - 2017.11.28 at 21h 46m 18s.xml">
-      <configuration name="Unittests in test_racionamento_ag" configurationId="tests" />
+    <history-entry file="Unittests_in_test_readtext - 2017.12.02 at 22h 04m 24s.xml">
+      <configuration name="Unittests in test_readtext" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_racionamento_ag - 2017.11.28 at 21h 52m 52s.xml">
-      <configuration name="Unittests in test_racionamento_ag" configurationId="tests" />
+    <history-entry file="Unittests_in_test_readtext - 2017.12.02 at 22h 04m 46s.xml">
+      <configuration name="Unittests in test_readtext" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_racionamento_ag - 2017.11.28 at 21h 55m 01s.xml">
-      <configuration name="Unittests in test_racionamento_ag" configurationId="tests" />
+    <history-entry file="Unittests_in_test_readtext - 2017.12.02 at 22h 04m 55s.xml">
+      <configuration name="Unittests in test_readtext" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_racionamento_models - 2017.11.28 at 21h 40m 01s.xml">
-      <configuration name="Unittests in test_racionamento_models" configurationId="tests" />
+    <history-entry file="Unittests_in_test_readtext - 2017.12.02 at 22h 05m 16s.xml">
+      <configuration name="Unittests in test_readtext" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="41" width="1366" height="727" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17051378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -528,9 +543,9 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26324505" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29966888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20860927" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40397352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3576159" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -548,9 +563,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43543047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20860927" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26324505" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16059603" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3576159" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17051378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294702" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -581,34 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/test/fabrica_obj_teste.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/main">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/racionamento_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/test/test_racionamento_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -633,7 +620,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -671,7 +660,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -680,7 +671,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,7 +752,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -817,7 +812,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -835,7 +832,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -873,7 +872,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -911,7 +912,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -949,7 +952,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -968,21 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python3.4/copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1354">
-          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/main">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/test/test_racionamento_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -993,30 +983,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/racionamento_ag.py">
+    <entry file="file://$PROJECT_DIR$/source/test/test_readtext.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="54" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/racionamento_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/test/test_racionamento_ag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="143">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1025,10 +1005,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/test/fabrica_obj_teste.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="108">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.4/copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/ReadTXT/setores.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/main">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/ReadTXT/readtext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/racionamento_ag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/racionamento_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

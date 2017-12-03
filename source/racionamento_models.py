@@ -18,7 +18,7 @@ class Bairro(object):
         self.clientes_essenciais = [] if clientes_essenciais is None else clientes_essenciais
 
     def __repr__(self):
-        return self.nome
+        return str(self.nome).replace("\n", "")
 
 
 class Setor(object):
@@ -173,8 +173,13 @@ class EstadoDia(object):
         ret = ""
         cont = 1
         for s in self.setores:
-            ret += "Setor {}: Horas Sem Racionamento {} Peso: {}\n Consumo {}\n\n" \
-                   "".format(cont, str(s.ativo_horas), s.get_peso_clientes(), s.total_consumos)
+            ret += "Setor {}: Racionamento {}\n               " \
+                   "Consumo {}\n               " \
+                   "Cidades {}\n               " \
+                   "Detalhes ConsumoMax/Gasto: {:.0f}/{} , Peso: {} , Total Clientes: {}\n\n" \
+                   "".format(cont, str(s.ativo_horas), s.total_consumos, s.bairros,
+                             s.max_vol_diario, s.get_consumo_total_hora(),
+                             s.peso_clientes, s.total_clientes)
             cont += 1
         ret += "\n\n"
         return ret

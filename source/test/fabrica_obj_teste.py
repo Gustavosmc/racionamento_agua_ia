@@ -1,35 +1,10 @@
 from source.racionamento_models import *
 import random
 
-
-def get_setores():
-    consumo1 = []
-    clientes1 = []
-    b1 = Bairro(nome='Centro', qtd_clientes=0, consumos=consumo1, clientes_essenciais=clientes1)
-    b2 = Bairro('Amoreiras 1')
-    b3 = Bairro('Jockei')
-    b4 = Bairro('Mirante')
-    b5 = Bairro('Vila Crivinel')
-    setor1 = Setor()
-    setor1.add_bairros(b1,b2,b3,b4,b5)
-
-    consumo2 = []
-    clientes2 = []
-    b6 = Bairro(nome='Alto da Colina', qtd_clientes=0, consumos=consumo2, clientes_essenciais=clientes2)
-    b7 = Bairro('Amoreiras 2')
-    b8 = Bairro('Bela Vista 2')
-    b9 = Bairro('Esplanada')
-    b10 = Bairro('Nossa Senhora Aparecida')
-    setor2 = Setor()
-    setor2.add_bairros(b6, b7, b8, b9, b10)
-
-
-
-
 def gerarConsumo(mult):
     consumos = []
     for i in range(23):
-        consumos.append((random.randint(5, 10)) * mult)
+        consumos.append((random.randint(2, 10)) * mult)
     return consumos
 
 def gerarCliente(quantidade):

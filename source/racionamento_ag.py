@@ -19,6 +19,7 @@ class RacionamentoAG():
         self._elitismo()
         self.estados.clear()
         self.estados.extend(self.estados_filhos)
+        self.estados.sort(key=lambda x: x.get_aptidao())
 
     def _mutacao(self, *args):
         for estado in args:
@@ -90,9 +91,9 @@ class RacionamentoAG():
         cont = 1
         for estado in self.estados:
             ret += "Estado: " + str(cont) + "\n"
-            ret += str(estado) + str(estado.get_aptidao()) + "\n"
+            ret += str(estado) + "Aptidao : " + str(estado.get_aptidao()) + "\n"
             ret += "Economia de água : {}\n".format(estado.get_economia_agua())
-            ret += "Consumo Total : {}\n".format(estado.get_consumo_total_hora())
+            ret += "Consumo Total : {}\n\n".format(estado.get_consumo_total_hora())
             cont += 1
         ret += '\n-------------------------------------------------------------\n'
         return ret
