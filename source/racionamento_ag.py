@@ -1,7 +1,7 @@
 from source.racionamento_models import *
 from random import random, choice
+from copy import deepcopy
 
-import copy
 class RacionamentoAG():
 
     def __init__(self, estados=None):
@@ -28,19 +28,6 @@ class RacionamentoAG():
                 if percent < FATOR_MUTACAO:
                     v = estado.ativo_horas[i]
                     estado.ativo_horas[i] = 0 if v == 1 else 1
-
-    def _mutacao2(self, *args):
-        for estado in args:
-            percent = random()
-            if percent < 0.1:
-                aux_sets = []
-                for i in range(0, len(estado.setores) * HORAS, HORAS):
-                    aux_set = Setor()
-                    aux_set.set_ativo_horas(estado.ativo_horas[i: i + HORAS])
-                    aux_sets.append(aux_set)
-                aux_sets.sort(key=lambda x: x.get_cont_ativos())
-                for s, auxs in zip(estado.setores, aux_sets):
-                    s.set_ativo_horas(auxs.ativo_horas)
 
     def _crossover(self, pai1, pai2):
         """
@@ -74,17 +61,14 @@ class RacionamentoAG():
         self._mutacao(filho1, filho2)
         return filho1, filho2
 
-
     def _torneio(self, est1, est2):
         return est1 if est1.get_aptidao() <= est2.get_aptidao() else est2
-
 
     def _elitismo(self):
         self.estados.sort(key=lambda x: x.get_aptidao(), reverse=True)
         self.estados_filhos.sort(key=lambda x: x.get_aptidao(), reverse=True)
         if self.estados_filhos[-1].get_aptidao() > self.estados[0].get_aptidao():
             self.estados_filhos[-1] = deepcopy(self.estados[0])
-
 
     def __repr__(self):
         ret = ''

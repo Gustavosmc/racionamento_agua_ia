@@ -1,40 +1,44 @@
 from source.ReadTXT.readtext import *
 from source.racionamento_ag import *
 import os
-
+import time
 
 SETORES_FILE = path = os.getcwd() + "/ReadTXT/setores.txt"
-CAPACIDADE = 100000
-NIVEL = 40 # por cento
+RESULTADOS_FOLDER = path = os.getcwd() + "/resultados/"
 
-MAX_DIARIO = 39200
-RODADAS = 500
+CAPACIDADE = 100000
+NIVEL = 40  # por cento
+MAX_DIARIO = 32200
+RODADAS = 200
 POPULACAO = 40
 
 def gerarEstados(quantidade):
-  setores = ler_setores(SETORES_FILE)
-  estados = []
-  capacidade = CAPACIDADE
-  nivel = NIVEL  # por cento
-  max_diario = MAX_DIARIO
+    setores = ler_setores(SETORES_FILE)
+    estados = []
+    capacidade = CAPACIDADE
+    nivel = NIVEL  # por cento
+    max_diario = MAX_DIARIO
 
-  for i in range(quantidade):
-    estado = EstadoDia()
-    estado.capacidade_reservatorio = capacidade
-    estado.nivel_reservatorio = nivel
-    estado.max_vol_diario = max_diario
-    for s in setores:
-      s.girar_aleatorio()
-      estado.add_setor(s)
-    estados.append(estado)
-  return estados
+    for i in range(quantidade):
+        estado = EstadoDia()
+        estado.capacidade_reservatorio = capacidade
+        estado.nivel_reservatorio = nivel
+        estado.max_vol_diario = max_diario
+        for s in setores:
+            s.girar_aleatorio()
+            estado.add_setor(s)
+        estados.append(estado)
+    return estados
 
 if __name__ == '__main__':
-  rodadas = RODADAS
-  estados = gerarEstados(POPULACAO)
-  racionamento_ag = RacionamentoAG(estados=estados)
-  melhor = racionamento_ag.estados[0]
-  for i in range(rodadas):
-    print(racionamento_ag)
-    racionamento_ag.proxima_geracao()
+    rodadas = RODADAS
+    estados = gerarEstados(POPULACAO)
+    racionamento_ag = RacionamentoAG(estados=estados)
+    melhor = racionamento_ag.estados[0]
+    resultado_file = RESULTADOS_FOLDER + "consumo-" + str(int(round(time.time() * 1000))) + ".txt"
+    with open(resultado_file, 'w') as f_result:
+      for i in range(rodadas):
+         print(racionamento_ag)
+         f_result.write(str(racionamento_ag))
+         racionamento_ag.proxima_geracao()
 

@@ -1,5 +1,4 @@
 from collections import namedtuple
-from copy import deepcopy
 from random import randint, random
 from operator import attrgetter
 
@@ -170,7 +169,7 @@ class EstadoDia(object):
         return aptidao_total
 
     def __repr__(self):
-        ret = ""
+        ret = "-------------------------------------------------------------------------------\n"
         cont = 1
         for s in self.setores:
             ret += "Setor {}: Racionamento {}\n               " \
